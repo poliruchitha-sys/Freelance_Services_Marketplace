@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="25dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bidding System"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginBottom="25dp"/>
+
+        <EditText
+            android:id="@+id/etBidService"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Service Title"
+            android:inputType="text"/>
+
+        <EditText
+            android:id="@+id/etFreelancerName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Freelancer Name"
+            android:inputType="textPersonName"
+            android:layout_marginTop="15dp"/>
+
+        <EditText
+            android:id="@+id/etBidAmount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Bid Amount"
+            android:inputType="numberDecimal"
+            android:layout_marginTop="15dp"/>
+
+        <EditText
+            android:id="@+id/etProposal"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:hint="Write your proposal"
+            android:gravity="top"
+            android:inputType="textMultiLine"
+            android:layout_marginTop="15dp"/>
+
+        <Button
+            android:id="@+id/btnSubmitBid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit Bid"
+            android:layout_marginTop="25dp"/>
+
+        <Button
+            android:id="@+id/btnViewBids"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View Bids"
+            android:layout_marginTop="15dp"/>
+
+    </LinearLayout>
+
+</ScrollView>
